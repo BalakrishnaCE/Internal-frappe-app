@@ -9,8 +9,8 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/internal/css/internal.css"
-# app_include_js = "/assets/internal/js/internal.js"
+app_include_css = "/assets/internal/css/internal.css"
+app_include_js = "/assets/internal/js/internal.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/internal/css/internal.css"
@@ -213,3 +213,4 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"internal.auth.validate"
 # ]
+website_route_rules = [{'from_route': '/internal/<path:app_path>', 'to_route': 'internal'},]
