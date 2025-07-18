@@ -1,0 +1,3 @@
+[submodule "internal_app"]
+	path = internal_app
+	url = https://github.com/BalakrishnaCE/Internal_app.git
